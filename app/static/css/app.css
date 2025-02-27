@@ -1,3 +1,79 @@
 body {
     padding-top: 5rem;
 }
+
+  
+.profileInfo {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.Profile {
+    max-width: full-width;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background:linear-gradient(to bottom, #31cc6d 56%, rgb(55, 210, 227) 44%);
+    margin: 0px;;
+    padding: 0px;
+    
+}
+
+.profileInfo{
+    align-items: center; 
+}
+
+img{
+    margin: 20px;
+    border-radius: 50%;
+    width: 250px;
+    border: 7px solid rgb(55, 210, 227);
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 17px;
+}
+
+.bio p{
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+  
+.profileInfo > div {
+    width: 100px; 
+    
+}
+
+.number{
+    font-weight: bold;
+}
+
+button{
+
+    width: 100px; 
+    height: 30px; 
+    font-size: 18px; 
+    background-color:#31cc6d;
+    border-radius: 10%;
+    margin-bottom: 30px;
+
+}
+

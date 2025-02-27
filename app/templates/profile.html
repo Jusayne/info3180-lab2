@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="Profile">
+    <div class="profile_heading">
+        <img src="{{ url_for('static', filename='profile.webp') }}" alt="profile photo" class="profile">
+        <h1>Jusayne Chambers</h1>
+        <h2>@jchambers</h2>
+        <h2>Kingston, Jamaica</h2> 
+        <h2>Joined {{formatted_date}}</h2>
+    </div>
+    <div class="bio">
+        <p>I am a smart and talented young man who loves website design and development. Contact me if you'd like to work together on a new project.</p>
+       
+    <div class="profileInfo">
+        <div>
+            <p><span class="number">12</span></p>
+            <p>Posts</p>
+        </div>
+        <div>
+            <p><span class="number">51</span></p>
+            <p>Following</p>
+        </div>
+        <div>
+            <p><span class="number">346</span></p>
+            <p>Followers</p>
+        </div>
+    </div>
+    </div>
+        <button id="thebutton" class="custom-button">Follow</button>
+    </div>
+</div>
+{% endblock %}
